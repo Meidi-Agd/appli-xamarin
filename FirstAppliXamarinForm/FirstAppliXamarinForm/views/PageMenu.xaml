@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstAppliXamarinForm.views.PageMenu"
+             Title="MENU">
+    <ContentPage.Content>
+
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="0">
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Start" BackgroundColor="LightPink">
+                <Image Source="BTSSIO.PNG" Margin="0,30,0,0" HeightRequest="150"/>
+                <Label Text="ACCUEIL" Style="{StaticResource TitleLabel}" Margin="0,30,0,0" VerticalTextAlignment="Center"/>
+            </StackLayout>
+
+            <Image Source="separator.png" Aspect="AspectFill"/>
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">                
+                <Button Text="Compteur" Clicked="Button_Clicked" Style="{StaticResource boutonStyle}"/>
+                <Button Text="Spécialité" Clicked="Button_Clicked_1" Style="{StaticResource boutonStyle}"/>
+                <Button Text="Etudiants" Clicked="Button_Clicked_2" Style="{StaticResource boutonStyle}"/>
+            </StackLayout>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

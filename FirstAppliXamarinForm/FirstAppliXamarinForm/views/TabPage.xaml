@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstAppliXamarinForm.views.TabPage"
+             xmlns:views="clr-namespace:FirstAppliXamarinForm.views"
+            BarBackgroundColor="LightPink"
+            BarTextColor="white"
+            Title="SPECIALITE">
+    
+    <views:SLAM Title="SLAM" IconImageSource="iconSLAM.png"/>
+    <views:SISR Title="SISR" IconImageSource="iconSISR.png"/>
+</TabbedPage>
